@@ -1,0 +1,12 @@
+web:
+  image: node:latest
+  ports:
+    - "5000:5000"
+  volumes:
+    - ./:/app/
+  working_dir: /app
+  command: npm start
+  environment:
+    - PORT=${WEB_PORT}
+    - API_HOST=${API_HOST}
+
