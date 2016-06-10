@@ -12,9 +12,9 @@
 → docker-compose up
 ```
 
-###  NOTE this app use two env variables:
+###  NOTE this app uses two env variables:
 
 - PORT: the listening PORT
 - API_HOST: the full url to call the API app
 
-This two variables need to be populate with docker-compose (WEB_PORT, API_HOST).
+These two variables need to be set with docker-compose (WEB_PORT, API_HOST).
